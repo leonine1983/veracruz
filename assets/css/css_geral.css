@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, h1, h2, h3, p{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	list-style:none}
+
+	
+#header-div_1, #header-div_3 {
+	width: calc(50% - 4.5em);
+	height:5em;
+	z-index: 9;
+		
+}
+#header-div_2{
+	width: 9em;
+	z-index: 10;
+	border-bottom-left-radius:50em;
+	border-bottom-right-radius:50em;	
+}
+
+	
+#bottosn{
+	height: 6.5em;
+	z-index: 5;
+}
+	
+/*YELLOW COLOR*/
+#header-div_1, #header-div_2, #header-div_3{	
+	background: #FF0;
+	}
+	
+/*BLUE COLOR*/
+#bottosn, .sidebar nav div,  #menu_localidades ul li, footer, .titulo {	
+	background:#036;
+	}
+/*BLUE COLOR HOVER*/
+.sidebar nav div:hover, #menu_localidades ul li:hover{
+	background:#034;
+	box-shadow:0.0em 0.1em 0.1em #999;}
+	
+/*BORDAS BLUE COLOR*/
+#header-div_1, #header-div_2, #header-div_3,  #menu_localidades span, #slider-show{
+	border-bottom-color:#036;
+	border-bottom-width:0.2em;
+	border-bottom-style: solid;
+	
+	}
+	
+/* Bordas arrendondadas */
+#bottosn, #content, #destaques, #column_two 	{
+	border-bottom-left-radius: 3em;
+	border-bottom-right-radius:3em;
+	box-sizing: border-box}
+	
+	
+	
+/*----------FIM Padrão de cores do Site----------*/
+
+/*.box_shadow {box-shadow:0.5em 0.5em 0.5em #999; }*/	
+	
+.float-left{
+	float:left;	
+	}
+		
+/**----------------------------- MENU do Cabeçalho----------------------------- */	
+.sidebar{ 
+	width:96%;
+	padding-left:1em;
+	
+	}
+/*Display FLEX */
+.sidebar nav, #content_flex, #rede_social {
+	display:flex
+	}
+	
+.sidebar nav div {
+	padding:0.2em 0.7em;
+	margin:0.1em;
+	height:4.7em;
+	flex-grow:1;
+	text-align:center
+	}
+.sidebar nav div span{
+	font-size: 2.5em;}
+/**Color Incon*/
+.sidebar nav div span, .sidebar nav div p{
+	color:#FF0}
+/** -----------------------------fim MENU do Cabeçalho ----------------------------- */
+
+#content{
+	width: 93%;
+	margin:auto;
+	padding-top:2.8em;
+	height:auto;
+	z-index:4 ;
+	box-shadow: 10px 10px 10px #999;
+	border-left-color: #036;
+	border-left-width:0.2em;
+	border-left-style: solid;
+	}
+/** MENU Localidade */ 
+#rede_social{
+	margin-left:5%}
+#rede_social li{
+	padding-top:1em;
+	padding-right:1em}
+#rede_social li img{
+	width:3em}
+#menu_localidades{
+	background: #FDFDF2;
+	}
+#menu_localidades ul li{
+	color:#FFF;
+	display:block;
+	width:12em;
+	padding:0.5em;}
+	
+/** fim MENU Localidade */
+#column_two{
+	width: calc(100% - 15em) ;
+	margin-left:1em;
+	 }
+#slider-show{
+	width:100%; /** Largura do Slider */
+	height:32em;
+	display:block}
+#content_main {
+	width: calc(100% - 30%)}
+#destaques {
+	width:29%;
+	margin-left:1em;}
+	
+#destaques, #content_main {
+	flex-basic:2}
+
+
+	
+/*PADDING 0.5em*/
+.titulo, #destaques spanc, #menu_localidades span, footer {	
+	padding:0.5em;}
+	
+/*100%*/
+.titulo{
+	width: calc(100% - 0.4em);
+	display:block;
+	padding: 0.2em;
+	color:#FFF
+	}
+
+footer {
+	margin-top:1em;
+	color:#FFF;
+	height: inherit}
+
