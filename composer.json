@@ -1,9 +1,5 @@
 {
-    "name": "leonine1983/P_VeraCruz",
-    "minimum-stability": "dev",
-    "type": "library",
-    "description": "Portal Vera Cruz",
-    "homepage": "https://github.com/leonine1983/P_VeraCruz",
+    "name": "leonine1983/veracruz",
     "authors": [
         {
             "name": "Rogerio da Silva",
@@ -11,12 +7,13 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "rain/raintpl":"3.0.0"
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
     },
     "autoload": {
         "psr-4": {
-            "": "src"
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
